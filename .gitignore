@@ -1,0 +1,48 @@
+# Ignore folders with history and logs
+library/History/
+template/schematic-page/History/
+template/schematic-page/__Previews/
+
+# Ignore files with logs
+library/debug.log
+
+# Ignore compiled library
+*.IntLib
+
+# Ignore list and logs to Altium Designer
+*.htm
+*.html
+
+# Various Altium files
+*.PrjPCBStructure
+*.SchDocPreview
+*.PcbDocPreview
+__Previews
+*.PrjPcbStructure
+*.Dat
+*.TLT
+*.LOG
+*.log
+*.htm
+*.$$$
+
+#useless dirs
+Project\ Outputs
+Project\ Logs
+Project Outputs for*
+
+#History
+History
+
+#Exports, but not manual ones
+exports/*
+!exports/manual
+
+#Python stuff
+scripts/__pycache__/
+*.bak
+*.dwl
+*.dwl2
+
+#MS Office temp files
+~$*
